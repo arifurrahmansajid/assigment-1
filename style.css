@@ -1,0 +1,74 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 25px 35px;
+ 
+
+}
+.btn-primary-1{
+    background-color: #FFF;
+    color: #FD6E0A;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 25px 35px;
+}
+nav li button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 166, 0);
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+nav, span{
+    color: #FD6E0A;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav  li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+.header{
+    background-color: #FFF8f3;
+}
+.banner{
+    padding: 50px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pictur{
+    width: 500px;
+}
